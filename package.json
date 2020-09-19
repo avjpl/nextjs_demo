@@ -1,0 +1,35 @@
+{
+  "name": "demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^1.6.18",
+    "framer-motion": "^2.6.15",
+    "next": "9.5.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "swr": "^0.3.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.4",
+    "babel-jest": "^26.3.0",
+    "eslint": "^7.9.0",
+    "eslint-plugin-jest-dom": "^3.2.3",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-testing-library": "^3.8.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.4.2",
+    "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "prop-types": "^15.7.2"
+  }
+}
